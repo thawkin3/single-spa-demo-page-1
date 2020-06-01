@@ -1,19 +1,9 @@
 import React from "react";
+import "./root.component.css";
 
-const containerStyles = {
-  background: "#379392",
-  color: "white",
-  padding: "20px",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  flex: 1,
-  fontSize: "3rem"
-};
-
-export default function Root(props) {
+export default function Root() {
   return (
-    <div style={containerStyles}>
+    <div className="container">
       <p>Page 1 App</p>
     </div>
   );
