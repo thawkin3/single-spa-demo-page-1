@@ -1,4 +1,4 @@
-# single-spa demo - Root Config
+# single-spa demo - Page App 1
 
 ## Overview
 
